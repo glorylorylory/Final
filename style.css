@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    margin: 0;
+    color: #333333;
+    line-height: 1.42857143;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.banner {
+    background-color: #7dc5d5;
+    height: 60px;
+    box-shadow: 0 2px 7px rgb(0, 0, 0, 0.25);
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+
+.settings {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+footer {
+    background-color: #7dc5d5;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    box-shadow: 0 -2px 7px rgb(0, 0, 0, 0.25);
+}
