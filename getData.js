@@ -1,28 +1,28 @@
-$.getJSON('restaurants.json', function(data) {
+// $.getJSON('restaurants.json', function(data) {
     
 
-    data['restaurants'].forEach(function (d) {
-        $('#restaurants').append(d['name'] + ' - ' + d['type'] + d['delivery'] + d['distance'] + d['time'] +'<br>') 
-    });
-});
+//     data['restaurants'].forEach(function (d) {
+//         $('#restaurants').append(d['name'] + ' - ' + d['type'] + d['delivery'] + d['distance'] + d['time'] +'<br>') 
+//     });
+// });
 
 
 
-    // $.getJSON("restaurants.json", function (data) {
-    //     var restaurants = '';
+    $.getJSON("restaurants.json", function (data) {
+        var restaurants = '';
 
-    //     $.each(data, function (_key, value) {
-    //         restaurants += '<table>';
-    //         restaurants += '<tr>';
-    //         restaurant += '<td>' +
-    //             value.name + '</td>';
+        $.each(data, function (_key, value) {
+            restaurants += '<table>';
+            restaurants += '<tr>';
+            restaurant += '<td>' +
+                value.name + '</td>';
             
-    //         restaurants += '<td>' +
-    //             value.type + '</td>';
-    //     });
+            restaurants += '<td>' +
+                value.type + '</td>';
+        });
 
-    //     $('#restaurants').append(restaurants);
-    // });
+        $('#restaurants').append(restaurants);
+    });
 
 // fetch('restaurants.json')
 //     .then(function (response) {
