@@ -13,12 +13,9 @@
 
         $.each(data, function (_key, value) {
             restaurants += '<table>';
-            restaurants += '<tr>';
-            restaurant += '<td>' +
-                value.name + '</td>';
-            
-            restaurants += '<td>' +
-                value.type + '</td>';
+                restaurants += '<tr>' + 
+                '<td>' + value.name + '</td>'
+                + '</tr>';
         });
 
         $('#restaurants').append(restaurants);
