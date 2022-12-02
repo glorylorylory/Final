@@ -12,10 +12,9 @@
         var restaurants = '';
 
         $.each(data, function (_key, value) {
-            restaurants += '<table>';
-                restaurants += '<tr>' + 
-                '<td>' + value.name + '</td>'
-                + '</tr>';
+            restaurants += '<tr>';
+                restaurants += '<td>' + 
+                value.name + '</td>';
         });
 
         $('#restaurants').append(restaurants);
@@ -37,7 +36,7 @@
 
 //     for (var i = 0; i <data.length; i++) {
 //         var div = document.createElement("div");
-//         .innerHTML = 'Name: ' + data[i].name + ' ' + data[i].type;
+//         div.innerHTML = 'Name: ' + data[i].name + ' ' + data[i].type;
 //         mainContainer.appendChild(div)
 //     }
 // }
