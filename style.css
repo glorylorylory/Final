@@ -71,10 +71,11 @@ footer a {
 
 .content {
     margin-bottom: 40px;
+    
 }
 
 #restaurants {
-    width: 80%;
+    width: 85%;
     margin: auto;
     padding-top: 100px;
 }
