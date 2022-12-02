@@ -65,3 +65,11 @@ footer a {
     margin: 10px 0;
     color: white;
 }
+
+
+#restaurants {
+    background-color: #E5E5E4;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}

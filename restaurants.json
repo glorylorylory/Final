@@ -1,0 +1,13 @@
+[
+    {"name": "AB Crepes", "type": "Breakfast & Desserts", "delivery": "$4.99", "distance": "2.38mi", "time": "1h3m"}, 
+    {"name": "Boomer's Drive-In", "type": "American", "delivery": "$4.99", "distance": "1.51mi", "time": "40m"}, 
+    {"name": "Culture Cafe", "type": "Local & Hawaiian Food", "delivery": "$4.99", "distance": "2.23mi", "time": "57m"},  
+    {"name": "Dumpling King", "type": "Asian Fusion", "delivery": "$4.99", "distance": "4.34mi", "time": "48m"},  
+    {"name": "Fiamma Burger", "type": "American", "delivery": "$4.99", "distance": "2.39mi", "time": "54m"},  
+    {"name": "Jalepenos Fairhaven", "type": "Mexican", "delivery": "$4.99", "distance": "1.12mi", "time": "57m"},   
+    {"name": "K-POP Chicken & Beer", "type": "Korean", "delivery": "$4.99", "distance": "2.38mi", "time": "1h23m"},   
+    {"name": "On Rice Thai Cuisine", "type": "Thai & Southeast Asian", "delivery": "$4.99", "distance": "0.99mi", "time": "57m"},   
+    {"name": "Pure Bliss Desserts", "type": "Cakes & Bakery", "delivery": "$4.99", "distance": "2.54mi", "time": "48m"},   
+    {"name": "Pye Hole", "type": "Pizza", "delivery": "$4.99", "distance": "2.24mi", "time": "57m"},  
+    {"name": "QQ Li's", "type": "Chinese", "delivery": "$4.99", "distance": "0.76mi", "time": "49m"}  
+]
