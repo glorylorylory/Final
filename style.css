@@ -68,8 +68,15 @@ footer a {
 
 
 #restaurants {
-    background-color: #E5E5E4;
     width: 80%;
     margin: auto;
     padding-top: 100px;
+}
+
+tr {
+    background-color: #E5E5E4;
+}
+
+td {
+    padding: 20px 0;
 }
