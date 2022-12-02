@@ -16,8 +16,9 @@ h1, h2, h3 {
     background-color: #7dc5d5;
     height: 60px;
     box-shadow: 0 2px 7px rgb(0, 0, 0, 0.25);
-    position: sticky;
+    position: fixed;
     width: 100%;
+    top: 0;
 }
 
 h1 {
@@ -30,7 +31,7 @@ h1 {
 
 .settings {
     width: 85%;
-    margin: 20px auto 0;
+    margin: 80px auto 0;
     padding: 20px 0;
     background-color: #E5E5E4;
 }
@@ -82,7 +83,7 @@ footer a {
 #restaurants {
     width: 85%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 80px;
 }
 
 tr {
