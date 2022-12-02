@@ -13,7 +13,7 @@
 
         $.each(data, function (_key, value) {
             restaurants += '<tr>';
-                restaurants += '<td>' + 
+                restaurants += '<td class="hideshow">' + 
                 '<img src="' + value.image + '">' + '<span class="listname">' + 
                 value.name + '</span>' + value.type + '<br>' + value.delivery + '&nbsp&nbsp&nbsp&nbsp&nbsp' + value.distance + '&nbsp&nbsp&nbsp&nbsp&nbsp' + value.time + '</td>';
         });

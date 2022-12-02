@@ -13,7 +13,7 @@
         </style>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.31&amp;libraries=places&amp;key=AIzaSyDRGzLNcJ7_wIsD9cXsJK8L7rlCaCLrCRA"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <!-- <script src="getData.js"></script> -->
+        <script src="transition.js"></script>
     </head>
 
     <body>
@@ -26,7 +26,7 @@
         <div class="content">
             <table id="restaurants">
                <tr>
-                    <td><img src="images/AB.png"><span class="listname">AB Crepes</span><br></td>
+                    <td class="hideshow"><img src="images/AB.png"><span class="listname">AB Crepes</span><br></td>
                </tr>
                <tr>
                     <td><img src="images/boomers.png"><span class="listname">Boomer's Drive-In</span>American<br>$4.99&nbsp&nbsp&nbsp&nbsp&nbsp1.51mi&nbsp&nbsp&nbsp&nbsp&nbsp40m</td>
@@ -53,6 +53,28 @@
             <td><img src="images/culture.png"><span class="listname">Culture Cafe</span></td>
        </tr>
             </table>
+        </div>
+
+        <div id="menu">
+            <div id="banner">
+                <header>
+                    <img class="hideshow" src="images/back.png">
+                    <h1>Boomer's Drive-In</h1>
+                </header>
+            </div>
+
+            <div id="notice">
+                <h2>Attention Customers</h2>
+                <p>Dine-in/take-out prices may vary. Single-use items, such as plasticware, chopsticks, condiments, and napkins, will not be included unless requested.</p>
+                <h3>Distance Charge</h3>
+                <p>We happily deliver to surrounding areas! The $4.99 delivery fee covers the first 4 miles from the restaurant. A $1.25 pro-rated, taxable, distance fee will automatically apply for each additional mile. Your driver receives the entire delivery fee and tip. If you have any questions, please call us at 360-922-0819. A working phone number is required to order.</p>
+            </div>
+
+            <div class="menucontent">
+                <table id="food">
+                    
+                </table>
+            </div>
         </div>
 
         <footer>

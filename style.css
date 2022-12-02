@@ -22,11 +22,15 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: 400;
     color: white;
     margin: 0;
-    padding: 15px 0 0 0;
+    padding: 13px 0 0 0;
+}
+
+h3 {
+    font-size: 1.25em;
 }
 
 .settings {
@@ -43,7 +47,8 @@ h1 {
 
 input {
     margin-bottom: 10px;
-    width: 60%;
+    width: 70%;
+    font-size: 16px;
 }
 
 input:focus {
@@ -58,6 +63,7 @@ button {
     margin-top: 10px;
     box-shadow: 0 1px 5px rgb(0, 0, 0, 0.25);
     font-weight: bold;
+    font-size: 16px;
     color: white;
 }
 
@@ -121,4 +127,44 @@ td img {
 .listname {
     font-weight: bold;
     font-size: larger;
+}
+
+#menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 9999;
+    top: 80px;
+}
+
+#banner {
+    background-color: #7dc5d5;
+    height: 60px;
+    box-shadow: 0 2px 7px rgb(0, 0, 0, 0.25);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#banner img {
+    width: 30px;
+    float: left;
+    margin: 15px -50px 0 20px;
+}
+
+#notice {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #E5E5E4;
+    display: block;
+    padding: 20px;
+}
+
+#notice h2 {
+    margin-top: 0;
+}
+
+h2, h3 {
+    margin-bottom: -10px;
 }
