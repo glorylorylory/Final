@@ -14,8 +14,8 @@
         $.each(data, function (_key, value) {
             restaurants += '<tr>';
                 restaurants += '<td>' + 
-                '<img src"' + value.image + '" alt="' + value.alt + '">' +
-                value.name + '</td>';
+                '<img src"' + value.image + '">' + '<span class="listname">' + 
+                value.name + '</span>' + '</td>';
         });
 
         $('#restaurants').append(restaurants);
