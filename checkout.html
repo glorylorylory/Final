@@ -21,25 +21,27 @@
             </header>
         </div>
 
-        <div class="settings">            
-          <label for="locationTextField">Delivery Address:</label>
-          <input id="locationTextField" type="text">
+        <div class="checkout">
+            <div class="pay">
+                <h2>Payment Method</h2>            
+                    <a href="#">Cash</a><br>
+                    <a href="#">Add New Credit/Gift Card</a><br>
+                    <a href="#">Split Check</a><br>
+            </div>
+            <div class="info">
+                <h2>Customer Info</h2>
+                <h3>Phone Number</h3>
+                <a href="#">Add New Phone Number</a>
 
-          <script>
-            function init() {
-                var input = document.getElementById('locationTextField');
-                var autocomplete = new google.maps.places.Autocomplete(input);
-            }
+                <h2 class="address">Delivery Address</h2>
+                <a href="#">Add New Delivery Address</a><br><br>
 
-            google.maps.event.addDomListener(window, 'load', init);
-          </script>
+                <input type="checkbox" id="nocontact">
+                <label for="nocontact">No-Contact Delivery: Leave food at door</label><br>
+                <input type="textarea" rows="4" placeholder="Optional delivery instructions"><br>
+            </div>
 
-          <form>
-            <input type="text" readonly value="ASAP">
-            <input type="datetime-local">
-          </form>
-
-          <a href="#">View Restaurants and Order!</a>
+          <a href="#"><button>Place Order</button></a>
         </div>
 
         <footer>
