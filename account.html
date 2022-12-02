@@ -22,24 +22,19 @@
         </div>
 
         <div class="settings">            
-          <label for="locationTextField">Delivery Address:</label>
-          <input id="locationTextField" type="text">
-
-          <script>
-            function init() {
-                var input = document.getElementById('locationTextField');
-                var autocomplete = new google.maps.places.Autocomplete(input);
-            }
-
-            google.maps.event.addDomListener(window, 'load', init);
-          </script>
-
           <form>
             <input type="text" readonly value="ASAP">
             <input type="datetime-local">
           </form>
 
-          <a href="#">View Restaurants and Order!</a>
+          <a href=""><button>View Restaurants and Order!</button></a>
+        </div>
+
+        <div id="notice">
+            <h2>Attention Customers</h2>
+                <p>Dine-in/take-out prices may vary. Single-use items, such as plasticware, chopsticks, condiments, and napkins, will not be included unless requested.</p>
+            <h3>Distance Charge</h3>
+                <p>We happily deliver to surrounding areas! The $4.99 delivery fee covers the first 4 miles from the restaurant. A $1.25 pro-rated, taxable, distance fee will automatically apply for each additional mile. Your driver receives the entire delivery fee and tip. If you have any questions, please call us at 360-922-0819. A working phone number is required to order.</p>
         </div>
 
         <footer>
