@@ -7,7 +7,7 @@
     {"name": "Jalepenos Fairhaven", "type": "Mexican", "delivery": "$4.99", "distance": "1.12mi", "time": "57m", "image": "images/jalepenos.png"},   
     {"name": "On Rice Thai Cuisine", "type": "Thai & Southeast Asian", "delivery": "$4.99", "distance": "0.99mi", "time": "57m", "image": "images/onrice.png"},   
     {"name": "Pye Hole", "type": "Pizza", "delivery": "$4.99", "distance": "2.24mi", "time": "57m", "image": "images/pye.png"},  
-    {"name": "AB Crepes", "type": "Breakfast & Desserts", "delivery": "$4.99", "distance": "2.38mi", "time": "1h3m", "image": "images/AB.png"},  
-    {"name": "K-POP Chicken & Beer", "type": "Korean", "delivery": "$4.99", "distance": "2.38mi", "time": "1h23m", "image": "images/kpop.png"},   
-    {"name": "Bayou on Bay", "type": "Southern Cuisine", "delivery": "$4.99", "distance": "2.72mi", "time": "1h20m", "image": "images/bayou.png"}  
+    {"name": "AB Crepes", "type": "Breakfast & Desserts", "delivery": "$4.99", "distance": "2.38mi", "time": "1h3m", "image": "images/AB.png"},     
+    {"name": "Bayou on Bay", "type": "Southern Cuisine", "delivery": "$4.99", "distance": "2.72mi", "time": "1h20m", "image": "images/bayou.png"},
+    {"name": "K-POP Chicken & Beer", "type": "Korean", "delivery": "$4.99", "distance": "2.38mi", "time": "1h23m", "image": "images/kpop.png"}  
 ]
