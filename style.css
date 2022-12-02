@@ -16,7 +16,7 @@ h1, h2, h3 {
     background-color: #7dc5d5;
     height: 60px;
     box-shadow: 0 2px 7px rgb(0, 0, 0, 0.25);
-    position: fixed;
+    position: sticky;
     width: 100%;
 }
 
@@ -29,15 +29,21 @@ h1 {
 }
 
 .settings {
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
+    width: 85%;
+    margin: 20px auto 0;
+    padding: 20px 0;
     background-color: #E5E5E4;
 }
 
 #locationTextField {
     display: block;
-    margin: auto;
+    margin: 10px auto;
+    width: 60%;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 60%;
 }
 
 a img {
@@ -76,7 +82,7 @@ footer a {
 #restaurants {
     width: 85%;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 tr {
